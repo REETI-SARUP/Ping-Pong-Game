@@ -48,6 +48,7 @@ function changePos() {
 
 	if(currentX < 0 || currentX > width_max - radius_ball) {
 		alert("Game Over. Score: " +points);
+		window.alert = null;
 		document.location.reload();		
 	}
 
